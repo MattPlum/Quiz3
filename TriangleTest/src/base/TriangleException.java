@@ -3,11 +3,11 @@ package base;
 import java.io.*;
 
 public class TriangleException extends Exception{
-	private Triangle triangle;
+	private Triangle t;
 	
-	public TriangleException(Triangle triangle){
+	public TriangleException(Triangle t){
 		super();
-		this.triangle = triangle;
+		this.t = t;
 	}
 	
 	
